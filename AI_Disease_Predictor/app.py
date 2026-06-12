@@ -8,7 +8,10 @@ app = Flask(__name__)
 prediction_history = []
 
 # load ML model
-model = pickle.load(open("model.pkl", "rb"))
+import os
+
+model_path = os.path.join(os.path.dirname(__file__), "model.pkl")
+model = pickle.load(open(model_path, "rb"))
 
 # disease info database
 disease_info = {
