@@ -1,0 +1,11 @@
+fever,cough,headache,fatigue,bodypain,vomiting,nausea,runnynose,sorethroat,dizziness,disease
+1,1,1,1,1,0,0,1,1,0,Flu
+1,1,0,1,0,0,0,1,1,0,Cold
+0,0,1,1,0,1,1,0,0,1,Migraine
+1,0,1,0,1,1,0,0,0,1,Dengue
+0,1,0,1,0,0,0,1,0,0,Allergy
+1,1,1,0,1,0,0,0,1,0,Typhoid
+1,0,0,1,1,1,1,0,0,1,Malaria
+0,1,1,1,0,0,0,1,1,0,Sinusitis
+0,0,1,0,0,0,0,0,0,1,Stress
+1,1,0,0,1,0,0,1,0,0,Viral Fever
